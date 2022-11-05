@@ -1,13 +1,20 @@
 # Optimisation-of-Conference-schedules
 
+Background of task:
+
+The goal is to take a complex new problem and formulate and solve it as a search. Formulation as search is an integral skill of AI that will come in handy whenever you are faced with a new problem. Heuristic search will allow you to find optimal solutions. Local search may not find the optimal solution, but is usually able to find good solutions for really large problems
+
+Please read problem statement before going ahead.
+
 Inputs Taken in following formats:
 
-papers_per_session
-parallel_sessions
-time
-C
+1. papers_per_session
+2. parallel_sessions
+3. time
+4. C
 n=papers_per_session*parallel_sessions*time
 
+--The constant C is tradeoff between the importance of semantic coherence of one session versus reducing conflict across parallel sessions
 
 Algorithm: First choice Hill climbing
 
@@ -28,3 +35,5 @@ Steps used:
 7.  The schedule at which max score comes is stored in the variable global_sch
 8.  Incremented one value in schedule for the desired output.
 9.  Finally printing the result
+
+for implementation refer to code.
