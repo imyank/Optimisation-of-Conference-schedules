@@ -12,7 +12,7 @@ Inputs Taken in following formats:
 2. parallel_sessions
 3. time
 4. C
-n=papers_per_session*parallel_sessions*time
+5. n=papers_per_session*parallel_sessions*time
 
 --The constant C is tradeoff between the importance of semantic coherence of one session versus reducing conflict across parallel sessions
 
